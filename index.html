@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Rock, Paper, Scissors</title>
+  <style>
+   
+  </style>
+
+</head>
+
+<body>
+  <h1 id="feedback"></h1>
+  <div class="button-container">
+    <div id="player1">
+      <button onclick="player1('rock')" class="hand rock">
+        <img src="Rock.png" alt="rock" />
+      </button>
+      <button onclick="player1('paper')" class="hand paper">
+        <img src="Paper.png" alt="paper" />
+      </button>
+      <button onclick="player1('scissors')" class="hand scissors">
+        <img src="Scissors.png" alt="scissors" />
+      </button>
+    </div>
+
+    <div id="player2">
+      <button onclick="player2('rock')" class="hand rock">
+        <img src="Rock.png" alt="rock" />
+      </button>
+      <button onclick="player2('paper')" class="hand paper">
+        <img src="Paper.png" alt="paper" />
+      </button>
+      <button onclick="player2('scissors')" class="hand scissors">
+        <img src="Scissors.png" alt="scissors" />
+      </button>
+    </div>
+  </div>
+  <button id="reset" onclick="window.location.reload();">reset</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

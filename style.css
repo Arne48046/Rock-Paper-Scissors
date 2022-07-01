@@ -1,0 +1,43 @@
+* {
+    background: lightgreen;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+}
+
+#player1 {
+    display: block;
+}
+
+#player2 {
+    display: none;
+}
+
+#feedback {
+    text-align: center;
+}
+
+.button-container {
+    text-align: center;
+    padding-top: 100px;
+}
+
+button {
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(0.95);
+}
+
+#reset {
+    position: fixed;
+    font-size: 1.3rem;
+    width: 100%;
+    text-align: center;
+    bottom: 0px;
+}
